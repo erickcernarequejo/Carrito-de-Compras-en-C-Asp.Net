@@ -1,0 +1,10 @@
+c:\users\willi\documents\visual studio 2015\Projects\CarritoCompras\BDConexion\bin\Debug\BDConexion.dll
+c:\users\willi\documents\visual studio 2015\Projects\CarritoCompras\BDConexion\bin\Debug\BDConexion.pdb
+c:\users\willi\documents\visual studio 2015\Projects\CarritoCompras\BDConexion\obj\Debug\BDConexion.csprojResolveAssemblyReference.cache
+c:\users\willi\documents\visual studio 2015\Projects\CarritoCompras\BDConexion\obj\Debug\BDConexion.dll
+c:\users\willi\documents\visual studio 2015\Projects\CarritoCompras\BDConexion\obj\Debug\BDConexion.pdb
+C:\Users\ERICK CR\Downloads\CarritoCompras C#\CarritoCompras\BDConexion\bin\Debug\BDConexion.dll
+C:\Users\ERICK CR\Downloads\CarritoCompras C#\CarritoCompras\BDConexion\bin\Debug\BDConexion.pdb
+C:\Users\ERICK CR\Downloads\CarritoCompras C#\CarritoCompras\BDConexion\obj\Debug\BDConexion.csprojResolveAssemblyReference.cache
+C:\Users\ERICK CR\Downloads\CarritoCompras C#\CarritoCompras\BDConexion\obj\Debug\BDConexion.dll
+C:\Users\ERICK CR\Downloads\CarritoCompras C#\CarritoCompras\BDConexion\obj\Debug\BDConexion.pdb

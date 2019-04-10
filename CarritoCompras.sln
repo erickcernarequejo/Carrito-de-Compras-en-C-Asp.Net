@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarritoCompras", "CarritoCompras\CarritoCompras.csproj", "{5BFFF4BF-E2C5-4B36-B77F-D77DF5D50A7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{510CEDFB-2089-4FCB-973D-8F6BE257760C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{607DEC65-5C2C-4A8D-BEF3-1BFF17F233A8}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{73EE7698-8792-4BD1-ACEE-FBDEC2445283}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\CarritoCompras.json = PublishScripts\Templates\CarritoCompras.json
+		PublishScripts\Templates\CarritoCompras.param.dev.json = PublishScripts\Templates\CarritoCompras.param.dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDConexion", "BDConexion\BDConexion.csproj", "{9819E34F-CFD6-4DEB-8C7C-78E94325E39C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponenteDatos", "ComponenteDatos\ComponenteDatos.csproj", "{3E800AF4-C8D1-4EA9-8EC1-EF63D54FC4FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponenteEntidad", "ComponenteEntidad\ComponenteEntidad.csproj", "{C4E3245E-8AEB-41A5-AA34-2D7C898047AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponenteNegocio", "ComponenteNegocio\ComponenteNegocio.csproj", "{960BC886-FAB1-4172-9FC5-A9108C79E13F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BFFF4BF-E2C5-4B36-B77F-D77DF5D50A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFFF4BF-E2C5-4B36-B77F-D77DF5D50A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFFF4BF-E2C5-4B36-B77F-D77DF5D50A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFFF4BF-E2C5-4B36-B77F-D77DF5D50A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9819E34F-CFD6-4DEB-8C7C-78E94325E39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9819E34F-CFD6-4DEB-8C7C-78E94325E39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9819E34F-CFD6-4DEB-8C7C-78E94325E39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9819E34F-CFD6-4DEB-8C7C-78E94325E39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E800AF4-C8D1-4EA9-8EC1-EF63D54FC4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E800AF4-C8D1-4EA9-8EC1-EF63D54FC4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E800AF4-C8D1-4EA9-8EC1-EF63D54FC4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E800AF4-C8D1-4EA9-8EC1-EF63D54FC4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E3245E-8AEB-41A5-AA34-2D7C898047AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E3245E-8AEB-41A5-AA34-2D7C898047AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E3245E-8AEB-41A5-AA34-2D7C898047AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E3245E-8AEB-41A5-AA34-2D7C898047AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960BC886-FAB1-4172-9FC5-A9108C79E13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960BC886-FAB1-4172-9FC5-A9108C79E13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960BC886-FAB1-4172-9FC5-A9108C79E13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960BC886-FAB1-4172-9FC5-A9108C79E13F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{607DEC65-5C2C-4A8D-BEF3-1BFF17F233A8} = {510CEDFB-2089-4FCB-973D-8F6BE257760C}
+		{73EE7698-8792-4BD1-ACEE-FBDEC2445283} = {510CEDFB-2089-4FCB-973D-8F6BE257760C}
+	EndGlobalSection
+EndGlobal
